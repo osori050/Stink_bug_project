@@ -19,7 +19,7 @@ def home():
 
 
 @app.route("/stinkbug_prediction")
-def temperature_predictive_analysis():
+def stinkbug_prediction():
 
     # Make Connection
     db.connect()
